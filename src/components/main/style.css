@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    direction: rtl;
+    margin-top: 3rem;
+}
+
+.card {
+    width: 340px;
+    height: 180px;
+    direction: rtl;
+    background-color: rgba(211, 211, 211, 0.5);
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+}
+
+.card p:first-child {
+    color: blue;
+}
+
+.card p {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: gray;
+}

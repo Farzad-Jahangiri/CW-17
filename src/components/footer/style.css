@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 60%;
+    list-style-type: none;
+}

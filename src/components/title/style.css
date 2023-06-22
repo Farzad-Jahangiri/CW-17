@@ -1,0 +1,22 @@
+.title {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.title hr {
+    flex-grow: 1;
+}
+
+.title p {
+    padding: 0px 10px;
+    font-size: 14px;
+    color: blue;
+    /* width: 20%; */
+    text-align: center;
+}

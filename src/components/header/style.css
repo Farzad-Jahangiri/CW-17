@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+@media screen and (min-width:901px) {
+    .logo-img img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .logo-img {
+        /* background-color: aqua; */
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header {
+        display: flex;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-left {
+        background-color: rgb(91, 91, 255);
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        color: white;
+    }
+
+    .header-left button {
+        background-color: rgb(1, 1, 170);
+        border: none;
+        outline: none;
+        color: white;
+        width: 10rem;
+        height: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .header-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 25vw;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .header-right input {
+        width: 95%;
+        outline: none;
+        text-align: center;
+        height: 1.5rem;
+        margin: .5rem;
+        border: none;
+    }
+
+    .header-right button {
+        background-color: rgb(1, 1, 170);
+        color: white;
+        outline: none;
+        border: none;
+        width: 95%;
+        height: 1.5rem;
+    }
+
+    .header-right a {
+        margin-top: 8%;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .logo-img {
+        display: none;
+    }
+
+    .header {
+        margin-top: 2rem;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-left {
+        background-color: rgb(91, 91, 255);
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        color: white;
+    }
+
+    .header-left button {
+        background-color: rgb(1, 1, 170);
+        border: none;
+        outline: none;
+        color: white;
+        width: 10rem;
+        height: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .header-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 90vw;
+        background-color: rgb(240, 240, 240);
+        padding-bottom: 2rem;
+    }
+
+    .header-right input {
+        width: 95%;
+        outline: none;
+        text-align: center;
+        height: 1.5rem;
+        margin: .5rem;
+        border: none;
+    }
+
+    .header-right button {
+        background-color: rgb(1, 1, 170);
+        color: white;
+        outline: none;
+        border: none;
+        width: 95%;
+        height: 1.5rem;
+    }
+
+    .header-right a {
+        margin-top: 8%;
+        text-decoration: none;
+    }
+
+}
